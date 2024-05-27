@@ -65,6 +65,13 @@
 		<div class="tableRow">
 			<p></p>
 			<p><input type="submit" value="aggiungi"></p>
+
+  <label for="username">Username:</label>
+  <input type="text" id="username" name="username" pattern="[A-Za-z0-9]{3,20}" required>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required>
+  <input type="submit" value="Submit">
+
 		</div>
 	</form>
 	
